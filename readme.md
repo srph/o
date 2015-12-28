@@ -1,6 +1,8 @@
 ## o
 Website with swag
 
+![preview](preview.png)
+
 ### Running
 To run it locally:
 ```bash
