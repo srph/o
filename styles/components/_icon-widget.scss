@@ -10,14 +10,20 @@
     align-items: center;
   }
 
-  > .icon a {
+  // Since .icons are expected to be links
+  > .icon,
+  > .icon:hover {
+    text-decoration: none;
+  }
+
+  > .icon .fa {
+    display: block;
     width: 100%;
     color: $black;
-    text-align: center;
     transition: 0.15s all;
   }
 
-  .icon a:hover {
+  .icon:hover .fa {
     color: $emerald;
   }
 }
