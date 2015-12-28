@@ -1,0 +1,23 @@
+.icon-widget {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 100%;
+
+  > .icon {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+  }
+
+  > .icon a {
+    width: 100%;
+    color: $black;
+    text-align: center;
+    transition: 0.15s all;
+  }
+
+  .icon a:hover {
+    color: $emerald;
+  }
+}
